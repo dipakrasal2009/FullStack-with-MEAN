@@ -1,0 +1,31 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Registration Form</h1>
+                    <h5>you can register heare</h5>
+                </div>
+                <form [formGroup]="signupForm" (submit)="Display()">
+                    <div class="mb-3">
+                      <label class="form-label">Email address</label>
+                      <input  formControlName="email" type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email address">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input formControlName="name"  type="text" class="form-control" id="exampleInputEmail1"  placeholder="Name">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Phone Number</label>
+                        <input  formControlName="mobile"  type="number" class="form-control" id="exampleInputEmail1"  placeholder="Phone">
+                      </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <!--<button (click)="Display()">Submit</button>-->
+
+                  </form>
+                  <!--<a style="color: blue; margin-top: 10px;" routerLink="/login">Already User? Click to Login</a>-->
+              </div>
+        </div>
+    </div>
+</div>
