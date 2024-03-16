@@ -1,0 +1,32 @@
+<!-- Calculator -->
+<div class="calculator">
+    
+    <!-- that is the input field of the calculator that is take the input -->
+    <input type="text" [(ngModel)]="expression" readonly >
+
+    <!-- <h3>{{answer}}</h3> -->
+    <div class="ans">
+    <label>Answer</label>
+    <input type="number" [(ngModel)]="answer"readonly>
+    </div>
+
+    <!-- buttons calss of the calculator -->
+    <div class="buttons">
+
+        <!-- i have create the string in cal.component.ts file that string contains the digits  //////////   and using *ngFor i will create buttons of that string-->
+
+        <!-- when i will click the button of the perticular number the number is pass to the cal.component.ts file and using input tag print the data in that feild-->
+      <button (click)="appendToExpression(digit)" *ngFor="let digit of number">{{ digit }}</button>
+
+      <!-- this button is use to clear the text feild -->
+      <button (click)="clear()">clear</button>
+
+      <!-- this button is call the execute function in .ts file and execute the experation -->
+      <button (click)="execute()">=</button>
+
+      <!-- i have create the operator string in ts file and create that string buttons using ngFor loop -->
+      <button (click)="appendToExpression(operator)" *ngFor="let operator of operators">{{ operator }}</button>
+
+    </div>
+  </div>
+  
