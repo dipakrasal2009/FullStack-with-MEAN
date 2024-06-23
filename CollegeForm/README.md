@@ -27,5 +27,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-##home
+
+##it is a Application of a College trip Registration Form.
+
+
+##it is a Home Page of our Application
+https://github.com/dipakrasal2009/FullStack/blob/main/CollegeForm/images/home.png
+
+
+## it is a Form page of the Application
 https://github.com/dipakrasal2009/FullStack/blob/main/CollegeForm/images/form.png
+
+
+## it is the submit page of the Appliction
+https://github.com/dipakrasal2009/FullStack/blob/main/CollegeForm/images/submit.png
+
+
+## it is to display the all student Information
+https://github.com/dipakrasal2009/FullStack/blob/main/CollegeForm/images/database.png
+
+
+
+
