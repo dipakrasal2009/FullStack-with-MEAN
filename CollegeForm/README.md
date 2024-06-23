@@ -28,7 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-##it is a Application of a College trip Registration Form.
+## it is a Application of a College trip Registration Form.
 
 
 ##it is a Home Page of our Application
