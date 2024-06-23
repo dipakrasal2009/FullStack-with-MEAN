@@ -1,0 +1,65 @@
+.Heading{
+    background-color: aqua;
+}
+
+.button{
+    margin-top: 21px;
+    margin-left: 34px;
+}
+
+h1{
+    margin-top: 44px;
+    margin-left: 31%;
+    font-size: xxx-large;
+    color: aqua;
+    margin-bottom: 62px;
+    text-decoration-line: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.mt-4{
+    background-color: aqua;
+    line-height: 14px;
+    line-break: strict;
+    border-block-width: 3px;
+    border-block-color: black;
+    border-width: 4px;
+    border-color: black;
+}
+
+.Heading{
+    background-color: aqua;
+    line-height: 14px;
+    line-break: strict;
+    border-block-width: 3px;
+    border-block-color: rgb(4, 0, 241);
+    border-width: 4px;
+    border-color: rgb(190, 28, 28);
+    font-size: 22px;
+    font-style: italic;
+
+}
+
+.table > tbody {
+    border-block-color: orange;
+    border-block-width: 10px;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+
+.btn-primary{
+        width: 160px;
+    height: 71px;
+    margin-left: 65px;
+    margin-top: -9px;
+    background-color: chartreuse;
+    border-block-style: inherit;
+    border-block-end-width: 8px;
+    border-block-start-width: 8px;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
+}

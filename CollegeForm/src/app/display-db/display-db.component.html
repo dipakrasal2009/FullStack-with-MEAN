@@ -1,0 +1,43 @@
+  <h1>Register student all Information </h1> 
+
+<!-- <li *ngFor="let Value of Data">
+    <h1>{{Value | json}}</h1>
+
+</li> -->
+
+<!-- <div *ngFor="let item of myObject | keyvalue">
+    Key: {{item.key}}, Value: {{item.value}}
+  </div> -->
+  
+
+<table class="table mt-4">
+    <thead class="Heading">
+        <tr>
+            <!-- <th scope="col">Restaurent Id</th> -->
+             <th scope="col">Email</th>
+            <th scope="col">Name</th> 
+            <th scope="col">Phone Number</th> 
+            <th scope="col">Class</th>
+            <th scope="col">Age</th>
+            <th scope="col">Gender</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of Data">
+            <td>{{data.email}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.mobile}}</td>
+            <td>{{data.Class}}</td>
+            <td>{{data.Age}}</td>
+            <td>{{data.Gender}}</td>
+
+        </tr>
+    </tbody>
+</table>
+<div class="button">
+    <button type="back" class="btn-primary" routerLink="" routerLinkActive="active">Back To Home Page</button>
+    <button type="back" class="btn-primary" routerLink="/submit" routerLinkActive="active">Back To Submit Page</button>
+    <button type="back" class="btn-primary" routerLink="/form" routerLinkActive="active">Back To Registration Form</button>
+
+</div>
+

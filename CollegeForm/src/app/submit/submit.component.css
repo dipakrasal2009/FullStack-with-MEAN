@@ -1,0 +1,46 @@
+.card{
+    background-color: yellow;
+    width: 100%;
+    padding: 69px;
+    margin-left: 0px;
+    align-items: baseline;
+    margin-top: 100px;
+}
+
+.Congrats , h1{
+    font-size: xxx-large;
+    color: black;
+    padding: 15px;
+}
+
+.message,h2{
+    font-size: xx-large;
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.Congrats.h1{
+    font-size: 33px;
+    padding-top: 24px;
+}
+
+.btn-primary{
+    width: 160px;
+    height: 71px;
+    margin-left: 65px;
+    margin-top: -9px;
+    background-color: chartreuse;
+    border-block-style: inherit;
+    border-block-end-width: 8px;
+    border-block-start-width: 8px;
+    border-bottom-left-radius: 29px;
+    border-bottom-right-radius: 29px;
+    border-top-left-radius: 29px;
+    border-top-right-radius: 29px;
+}
+
+
+.button{
+    margin-top: 21px;
+    margin-left: 34px;
+}
